@@ -1498,6 +1498,7 @@ p.font_b {
   margin: 0; }
 
 td.tab-p {
+  padding-right: 20px;
   padding-bottom: 7px;
   color: #464646;
   line-height: 1.53333; }
