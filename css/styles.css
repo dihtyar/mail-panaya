@@ -1467,8 +1467,11 @@ table.body .row_picture .columns.large-4 {
   padding-right: 30px;
   padding-top: 0;
   padding-bottom: 0;
-  margin: 0;
-  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
   display: block; }
   .list-desc li {
     margin-top: 0;
@@ -1495,6 +1498,7 @@ p.font_b {
   margin: 0; }
 
 td.tab-p {
+  padding-bottom: 7px;
   color: #464646;
   line-height: 1.53333; }
 

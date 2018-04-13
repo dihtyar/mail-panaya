@@ -93,8 +93,11 @@ table.body .row_picture .columns.large-4{
   padding-right: 30px;
   padding-top: 0;
   padding-bottom: 0;
-  margin: 0;
-  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
   display: block;
     li {
       margin-top: 0;
@@ -125,7 +128,7 @@ p.font_b{
 }
 td.tab-p{
   //padding-top: 0;
-  //padding-bottom: 0;
+  padding-bottom: 7px;
   color: $grey;
   line-height: (23/15);
 
