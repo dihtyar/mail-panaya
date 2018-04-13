@@ -1,0 +1,144 @@
+@import "foundation";
+
+.no-bg {
+  background: transparent !important;
+}
+
+.custom-pb {
+  padding-bottom: 7px;
+}
+
+.tiny-text {
+  font-size: 12px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.basic-link {
+  text-decoration: underline;
+  color: $link;
+}
+
+.main-sub-heading {
+  color: $grey;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+}
+
+.main-heading {
+  margin: 0;
+  font-size: $h1-font-size;
+  color: $green;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+p.mb{
+  margin-bottom: 0;
+}
+
+.main-body-p {
+  color: $grey;
+  line-height: (23/15);
+}
+li.main-body-p{
+  margin-bottom: 6px;
+}
+li.main-body-p.mb_n {
+  margin-bottom: 0;
+}
+p.main-body-p.mb_n{
+  margin-bottom: 5px;
+}
+.decorative-line {
+  background: $grey;
+  height: 2px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  color: $accent;
+}
+.link{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.item-price {
+  color: $grey;
+}
+table.body .columns.large-12{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+table.body .row_picture .columns.small-12{
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+table.body .row_picture .columns.large-4{
+  padding-left: 0;
+  padding-right: 0;
+}
+.text-sm{
+  color: $dark-gray;
+  font-size: $fontSize;
+}
+.list-desc{
+  padding-left: 0;
+  padding-right: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  list-style: none;
+  display: block;
+    li {
+      margin-top: 0;
+      margin-bottom: 7px;
+      padding-top: 0;
+      padding-bottom: 0;
+      display: block;
+      line-height: 1;
+    }
+}
+.font_b{
+  font-weight: bold;
+}
+p.font_b{
+  font-size: $h3-font-size;
+}
+.point{
+  font-size: $h3-font-size;
+  width: 30px;
+  text-align: center;
+  //padding: 0;
+}
+
+.list-table{
+  text-align: left;
+  vertical-align: top;
+  margin: 0;
+}
+td.tab-p{
+  //padding-top: 0;
+  //padding-bottom: 0;
+  color: $grey;
+  line-height: (23/15);
+
+}
+
+table.button {
+  margin-bottom: 0;
+  table {
+    td {
+      padding: map-get($button-padding, default);
+      a {
+        padding: 0px;
+      }
+    }
+  }
+}
