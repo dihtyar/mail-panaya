@@ -27,13 +27,19 @@
   margin: 0;
   font-size: 20px;
 }
-
+.main-sub{
+  color: $green;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 14px;
+  margin-bottom: 0;
+}
 .main-heading {
   margin: 0;
   font-size: $h1-font-size;
-  color: $green;
+  color: $white;
   font-weight: normal;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 p.mb{
@@ -42,7 +48,7 @@ p.mb{
 
 .main-body-p {
   color: $grey;
-  line-height: (23/15);
+  line-height: (1.2);
 }
 li.main-body-p{
   margin-bottom: 6px;
@@ -70,16 +76,26 @@ p.main-body-p.mb_n{
 .item-price {
   color: $grey;
 }
-table.body .columns.large-12{
+table.body  .columns .main-body-p{
+  margin-bottom: 0;
+}
+
+table.body .row_picture .columns.small-12.first{
+  padding-left: 23px;
+  padding-bottom: 0;
   padding-right: 0;
+}
+table.body .columns.small-12.first.last{
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+table.body .row_picture .columns.small-12.last{
   padding-left: 0;
   padding-bottom: 0;
+  padding-right: 23px;
 }
-table.body .row_picture .columns.small-12{
-  padding-left: 0;
-  padding-bottom: 0;
-  padding-right: 0;
-}
+
 table.body .row_picture .columns.large-4{
   padding-left: 0;
   padding-right: 0;
@@ -99,17 +115,17 @@ table.body .row_picture .columns.large-4{
   margin-bottom: 0;
   list-style-type: none;
   display: block;
-    li {
-      margin-top: 0;
-      margin-bottom: 7px;
-      padding-top: 0;
-      padding-bottom: 0;
-      display: block;
-      line-height: 1;
-    }
+  li {
+    margin-top: 0;
+    margin-bottom: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+    line-height: 1;
+  }
 }
 .font_b{
-  font-weight: bold;
+  font-weight: 500;
 }
 p.font_b{
   font-size: $h3-font-size;
@@ -135,6 +151,35 @@ td.tab-p{
 
 }
 
+.main-art{
+  background-image: url("http://onevdev.com/test/panaya/img/main-letter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+table.body .container .main-art{
+  padding-bottom: 0;
+}
+table.body .container.picture-main > tbody > tr > td.in-art{
+  padding-top: 36px;
+  padding-bottom: 10px;
+  padding-right: 23px;
+  padding-left: 23px;
+}
+table.body .container.picture-main > tbody > tr > td p.main-heading{
+  margin-bottom: 0;
+}
+
+
+
+table.body .container.picture-main{
+  background: none;
+}
+table.body .container.picture-main > tbody > tr > td.columns.main-art p.text-right,
+table.body .container.picture-main > tbody > tr > tdh.columns.main-art p
+{
+  margin: 0;
+}
 table.button {
   margin-bottom: 0;
   table {
@@ -145,4 +190,30 @@ table.button {
       }
     }
   }
+}
+@media only screen and (max-width:564px) {
+
+  table.body .row_picture .small-12.large-5{
+    padding-top: 20px!important;
+  }
+
+  table.body .row_picture .columns.small-12.first{
+    padding-left: 15px!important;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+  table.body .columns.small-12.first.last{
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+  }
+
+  table.body .row_picture .columns.small-12.last{
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 15px!important;
+  }
+
+
+
+
 }
